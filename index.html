@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>끝말잇기</title>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 200px;
+            word-break: keep-all;
+            font-size: 30px;
+        }
+        button {
+            background-color: white;
+            padding: 2px 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+        <input id="input" type="text">
+        <button id="formBtn">input</button>
+    </form>
+
+    <div id="words">
+        <span> 성균관대학교 </span>
+        <!--단어 추가하면 이 밑으로 <span>→단어</span> 생성되어야 함-->
+    </div>
+    
+    <div id = "lifecnt">💖💖💖</div>
+    <div id = "warning" style="color:red;"> </div>
+
+    <script src='wordchaingame.js'></script>
+
+</body>
+
+</html>
